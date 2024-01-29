@@ -9,6 +9,15 @@
     margin: 0;
   }
 
+  .navigation p {
+    font-size: 15px;
+  }
+  .navigation a {
+    font-size: 12px;
+  }
+  #pageone {
+    margin-top: 5%;
+  }
   h2 {
     height: 32px;
   }
@@ -34,7 +43,7 @@
 
   #pagefour h2 {
     width: 100%;
-    font-size: 42px;
+    font-size: 36px;
   }
 
   #pagefive h2 {
@@ -115,5 +124,9 @@
 
   #pagethree a {
     font-size: 13px;
+  }
+
+  #pagefour h2 {
+    margin-bottom: 25%;
   }
 }
