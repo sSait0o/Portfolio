@@ -473,7 +473,7 @@ img :hover {
 }
 
 #stick1 {
-  max-width: 15%;
+  max-width: 10%;
   height: auto;
   position: absolute;
   bottom: 10px;
@@ -873,7 +873,7 @@ h4 {
 }
 
 #stick2 {
-  max-width: 20%;
+  max-width: 10%;
   height: auto;
   position: relative;
   top: 65px;
