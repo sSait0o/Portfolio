@@ -10,13 +10,12 @@
   }
 
   .navigation p {
-    font-size: 15px;
+    font-size: 12px;
   }
   .navigation a {
     font-size: 12px;
   }
   #pageone {
-    margin-top: 5%;
   }
   h2 {
     height: 32px;
@@ -29,6 +28,8 @@
   #pageone h2 {
     width: 100%;
     font-size: 42px;
+    margin-top: 30%;
+    margin-bottom: 30%;
   }
 
   #pagetwo h2 {
@@ -74,7 +75,7 @@
 
   #pageone p {
     width: 100%;
-    font-size: 12px;
+    font-size: 16px;
   }
 
   #pagetwo p {
@@ -97,6 +98,61 @@
     font-size: 12px;
   }
 
+  #pageone {
+    margin-bottom: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  #stick1 {
+    max-width: 15%;
+    height: auto;
+    position: absolute;
+    bottom: -90px;
+    z-index: 0;
+  }
+
+  #stick2 {
+    max-width: 20%;
+    height: auto;
+    position: relative;
+    top: 65px;
+    left: 50px;
+  }
+
+  #bio button {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    font-size: 100px;
+  }
+
+  #buttonsocial {
+    background-color: rgba(255, 255, 255, 0);
+    padding-bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  #buttonsocial p {
+    display: none;
+  }
+
+  #buttonsocial img {
+    margin-top: 40%;
+    transition: 0.4s;
+    max-width: 70%;
+    height: auto;
+    filter: invert(100%);
+  }
+
+  #buttonsocial article {
+    margin-bottom: 0;
+  }
+
   #bio button {
     width: 100%;
     font-size: 15px;
@@ -109,10 +165,39 @@
     width: 100%;
     font-size: 15px;
   }
+
+  #presentationbox {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #biodeux {
+    margin-top: 10%;
+    width: 60%;
+  }
+
+  #formation {
+    width: 60%;
+    margin-top: 10%;
+  }
+
+  #experiences {
+    width: 60%;
+    margin-top: 10%;
+  }
+
   #pagethree button {
     width: 100%;
     font-size: 15px;
   }
+
+  .progressbutton {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+  }
+
   #pagefour button {
     width: 100%;
     font-size: 15px;
