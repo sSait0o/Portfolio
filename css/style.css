@@ -406,6 +406,7 @@ img :hover {
 #nav {
   display: flex;
   position: fixed;
+  top: 0;
   background-color: rgba(0, 0, 0, 0.816);
   width: 100%;
   backdrop-filter: blur(2px);
@@ -912,7 +913,8 @@ h4 {
   cursor: pointer;
   margin-bottom: 10%;
   justify-content: space-between;
-  margin-left: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .pagefive button:hover {
