@@ -107,9 +107,8 @@
     max-width: 15%;
     height: auto;
     position: absolute;
-    bottom: 155px;
-    left: 30px;
     z-index: 0;
+    bottom: 70px;
   }
 
   #stick2 {
@@ -145,7 +144,7 @@
   #buttonsocial img {
     margin-top: 40%;
     transition: 0.4s;
-    max-width: 60%;
+    max-width: 45%;
     height: auto;
     filter: invert(100%);
   }
