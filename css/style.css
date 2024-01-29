@@ -16,10 +16,8 @@ article {
   color: rgb(255, 255, 255);
 }
 
-img,
-image {
-  height: 40px;
-  border: none;
+button {
+  transition-duration: 0.3s;
 }
 
 img :hover {
@@ -434,6 +432,7 @@ img :hover {
   z-index: 20;
   padding-left: 1%;
   padding-right: 1%;
+  transition-duration: 0.3s;
 }
 
 .navigation a:hover {
@@ -441,7 +440,6 @@ img :hover {
   background-color: rgb(82, 82, 82);
   z-index: 20;
   border-radius: 6px;
-  border: 1px dashed white;
 }
 
 .navigation p {
@@ -468,19 +466,16 @@ img :hover {
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
-  border: 2px solid white;
-  border-right: 0px;
-  border-top: 0px;
-  border-left: 0px;
   position: relative;
   z-index: 2;
   margin-bottom: 8%;
 }
 
 #stick1 {
-  height: 100px;
+  max-width: 15%;
+  height: auto;
   position: absolute;
-  top: 621px;
+  bottom: 10px;
   z-index: 0;
 }
 
@@ -497,7 +492,7 @@ p:hover {
   transition-duration: 0.3s;
 }
 #bio h2 {
-  font-size: 80px;
+  font-size: 62px;
 }
 #bio p {
   font-size: 20px;
@@ -520,17 +515,26 @@ p:hover {
 }
 
 #buttonsocial {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.708);
   width: 30%;
   padding-bottom: 8%;
   border: none;
+  text-align: center;
+  border-top-left-radius: 100000px;
+  border-bottom-right-radius: 100000px;
 }
 
 #buttonsocial button {
   border: none;
   background-color: rgba(148, 33, 33, 0);
+  transition: 0.4s;
 }
 
+#buttonsocial img {
+  transition: 0.4s;
+  max-width: 23%;
+  height: auto;
+}
 #buttonsocial img:hover {
   cursor: pointer;
   transition: 0.3s;
@@ -538,9 +542,7 @@ p:hover {
 }
 
 #buttonsocial p {
-  margin-left: 35.33%;
   font-size: 35px;
-  margin-bottom: 19%;
   margin-top: 45%;
   color: black;
 }
@@ -550,22 +552,25 @@ p:hover {
 }
 
 #buttonsocial article {
-  margin-bottom: 15%;
-  margin-left: 40%;
+  margin-bottom: 10%;
 }
 
 #pagetwo {
-  display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   text-align: center;
   margin-bottom: 7%;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrage horizontal */
+  align-items: center; /* Centrage vertical */
 }
 
 #pagetwo h2 {
   width: 100%;
-  font-size: 82px;
+  font-size: 62px;
 }
 
 #pagetwo img {
@@ -580,21 +585,24 @@ p:hover {
 }
 
 #pagetwo p {
+  display: flex;
   font-size: 17px;
 }
 #presentationbox {
   display: flex;
-  width: 100%;
+  width: 95%;
   justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
 
 #biodeux {
   display: block;
-  width: 28%;
-  margin-left: 4%;
+  width: 27%;
   border-radius: 8px;
   border: 2px solid rgb(183, 183, 183);
   margin-bottom: 2%;
+  transition: 0.4s;
 }
 
 #formation {
@@ -603,14 +611,15 @@ p:hover {
   border-radius: 8px;
   border: 2px solid rgb(183, 183, 183);
   margin-bottom: 2%;
+  transition: 0.4s;
 }
 #experiences {
   display: block;
   width: 28%;
-  margin-right: 4%;
   border-radius: 8px;
   border: 2px solid rgb(183, 183, 183);
   margin-bottom: 2%;
+  transition: 0.4s;
 }
 
 #biodeux:hover {
@@ -639,7 +648,7 @@ p:hover {
 
 #pagethree h2 {
   padding-top: 1%;
-  font-size: 83px;
+  font-size: 62px;
   color: white;
   padding-bottom: 1.5%;
 }
@@ -815,7 +824,7 @@ h4 {
   justify-content: space-around;
   display: flex;
   width: 100%;
-  font-size: 82px;
+  font-size: 62px;
   margin-bottom: 10%;
 }
 
@@ -867,7 +876,8 @@ h4 {
 }
 
 #stick2 {
-  height: 100px;
+  max-width: 20%;
+  height: auto;
   position: relative;
   top: 65px;
   left: 65px;
@@ -882,13 +892,15 @@ h4 {
 }
 
 .pagefive h2 {
-  font-size: 80px;
+  font-size: 62px;
 }
 
 .pagefive img {
-  height: 200px;
+  max-width: 50%;
+  height: auto;
   border-radius: 8px;
   border: 2px solid white;
+  transition-duration: 0.3s;
 }
 
 .pagefivebuttons {
@@ -929,20 +941,24 @@ h4 {
   justify-content: space-between;
 }
 
-.article2 {
-  margin-left: 2%;
-  margin-bottom: 2%;
-}
-
 .article1 {
-  margin-right: 2%;
   margin-bottom: 2%;
 }
-
-.assemblage {
-  display: inline-flex;
+.article2 {
+  margin-bottom: 2%;
 }
-
+.article3 {
+  margin-bottom: 2%;
+}
+.article4 {
+  margin-bottom: 2%;
+}
+.article5 {
+  margin-bottom: 2%;
+}
+.article6 {
+  margin-bottom: 2%;
+}
 .todolist {
   width: 100%;
 }
