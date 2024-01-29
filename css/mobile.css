@@ -99,7 +99,7 @@
   }
 
   #pageone {
-    margin-bottom: 30%;
+    margin-bottom: 15%;
     display: flex;
     flex-direction: column;
   }
@@ -107,7 +107,8 @@
     max-width: 15%;
     height: auto;
     position: absolute;
-    bottom: -90px;
+    bottom: 155px;
+    left: 30px;
     z-index: 0;
   }
 
@@ -144,7 +145,7 @@
   #buttonsocial img {
     margin-top: 40%;
     transition: 0.4s;
-    max-width: 70%;
+    max-width: 60%;
     height: auto;
     filter: invert(100%);
   }
@@ -186,10 +187,16 @@
     width: 60%;
     margin-top: 10%;
   }
-
+  #pagethree h2 {
+    margin-bottom: 25%;
+  }
   #pagethree button {
     width: 100%;
     font-size: 15px;
+  }
+
+  #progressbar {
+    width: 75%;
   }
 
   .progressbutton {
@@ -201,6 +208,14 @@
   #pagefour button {
     width: 100%;
     font-size: 15px;
+  }
+
+  #pagefive h2 {
+    margin-bottom: 25%;
+  }
+
+  .progressbutton {
+    margin-bottom: 10%;
   }
   #pagefive button {
     width: 100%;
