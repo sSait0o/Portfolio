@@ -591,15 +591,14 @@ p:hover {
 }
 #presentationbox {
   display: flex;
-  width: 95%;
+  width: 60%;
   justify-content: space-between;
   text-align: center;
-  align-items: center;
 }
 
 #biodeux {
   display: block;
-  width: 27%;
+  width: 40%;
   border-radius: 8px;
   border: 2px solid rgb(183, 183, 183);
   margin-bottom: 2%;
@@ -608,7 +607,7 @@ p:hover {
 
 #formation {
   display: block;
-  width: 27%;
+  width: 40%;
   border-radius: 8px;
   border: 2px solid rgb(183, 183, 183);
   margin-bottom: 2%;
