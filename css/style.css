@@ -568,16 +568,12 @@ p:hover {
   align-items: center; /* Centrage vertical */
 }
 
-#pagetwo h2 {
-  width: 100%;
-  font-size: 62px;
-}
-
 #pagetwo img {
-  height: 83px;
+  max-width: 50%;
+  height: auto;
   border: 2px solid rgb(0, 0, 0);
   border-style: dashed;
-  border-radius: 100px;
+  border-radius: 100%;
   margin: 5% 2% 3% 2%;
   float: top;
   filter: invert(100%);
@@ -659,7 +655,7 @@ h4 {
 }
 
 .progressbutton {
-  width: 100%;
+  width: 20%;
 }
 
 .progressbutton button {
@@ -667,11 +663,11 @@ h4 {
   border: 2px solid white;
   border-radius: 6px;
   font-size: 20px;
-  padding: 1%;
   color: white;
   cursor: pointer;
   margin-left: 1.5%;
   margin-right: 1.5%;
+  padding: 1%;
 }
 
 .progressbutton button:hover {
