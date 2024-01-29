@@ -191,7 +191,7 @@
     margin-bottom: 15%;
   }
   #pagethree h2 {
-    margin-bottom: 25%;
+    margin-bottom: 17%;
   }
   #pagethree button {
     width: 100%;
@@ -220,11 +220,20 @@
   .progressbutton {
     margin-bottom: 10%;
   }
-  #pagefive button {
+  #pagefivebuttons {
     width: 100%;
-    font-size: 15px;
+    display: flex;
+    flex-direction: row;
   }
 
+  #button3 {
+    width: 65%;
+    font-size: 15px;
+  }
+  #button4 {
+    width: 27%;
+    font-size: 15px;
+  }
   #form input {
     width: 100%;
   }
