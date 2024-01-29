@@ -522,6 +522,7 @@ p:hover {
   border: none;
   text-align: center;
   border-bottom-left-radius: 100000px;
+  border-top-left-radius: 100000px;
 }
 
 #buttonsocial button {
