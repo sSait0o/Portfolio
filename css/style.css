@@ -521,7 +521,6 @@ p:hover {
   padding-bottom: 8%;
   border: none;
   text-align: center;
-  border-top-left-radius: 100000px;
   border-bottom-left-radius: 100000px;
 }
 
@@ -567,6 +566,10 @@ p:hover {
   flex-direction: column;
   justify-content: center; /* Centrage horizontal */
   align-items: center; /* Centrage vertical */
+}
+
+#pagetwo h2 {
+  font-size: 82px;
 }
 
 #pagetwo img {
