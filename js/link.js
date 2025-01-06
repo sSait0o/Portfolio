@@ -24,41 +24,24 @@ gsap.fromTo(
 );
 
 gsap.fromTo(
-  ".linkContentIn.One",
+  ".linkContentIn",
   {
-    opacity: 0,
+    y: 80,
+
+    opacity: 0, // Valeur initiale
   },
   {
-    opacity: 1,
     y: 0,
-    rotate: -8,
+    scale: 1.1,
+    opacity: 1, // Valeur finale
     scrollTrigger: {
-      trigger: ".linkContentIn.One",
-      start: "top 80%",
-      end: "top 15%",
+      trigger: ".linkContentIn",
+      start: "top 70%",
+      end: "top 25%",
+
       scrub: true,
 
-      toggleActions: "restart pause reverse pause",
-    },
-  }
-);
-
-gsap.fromTo(
-  ".linkContentIn.Two",
-  {
-    opacity: 0,
-  },
-  {
-    opacity: 1,
-    y: 0,
-    rotate: 8,
-    scrollTrigger: {
-      trigger: ".linkContentIn.One",
-      start: "top 80%",
-      end: "top 15%",
-      scrub: true,
-
-      toggleActions: "restart pause reverse pause",
+      toggleActions: "restart pause reverse pause", // Modifie les actions selon les événements
     },
   }
 );
