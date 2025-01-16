@@ -13,8 +13,8 @@ gsap.fromTo(
     opacity: 1, // Valeur finale
     scrollTrigger: {
       trigger: ".link h1",
-      start: "top 70%",
-      end: "top 25%",
+      start: "top 60%",
+      end: "top 10%",
 
       scrub: true,
 
@@ -36,8 +36,8 @@ gsap.fromTo(
     opacity: 1, // Valeur finale
     scrollTrigger: {
       trigger: ".linkContentIn",
-      start: "top 70%",
-      end: "top 25%",
+      start: "top 80%",
+      end: "top 40%",
 
       scrub: true,
 

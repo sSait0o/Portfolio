@@ -513,6 +513,7 @@ main {
   border: none;
   border-top: 2px solid rgb(255, 255, 255);
   border-bottom: 2px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.029);
 }
 
 .aboutContentIn img {
@@ -645,11 +646,10 @@ main {
 /* Styles globaux */
 .portfolioh1 {
   margin-top: 10%;
-  margin-bottom: 10%;
 }
 .portfolio {
   padding-left: 0%;
-  margin-top: 20vh; /* Décale la section un peu vers le bas */
+
   text-align: center;
 }
 .wrapper {
@@ -664,13 +664,13 @@ main {
 .projects {
   display: flex;
   gap: 20px; /* Espace entre les prots */
-  padding-left: 550vw; /* Décale les projets à droite */
+  padding-left: 450vw; /* Décale les projets à droite */
   width: max-content; /* La largeur s'adapte au contenu */
   flex-wrap: nowrap;
 }
 
 .project {
-  background-color: rgba(255, 255, 255, 0.062);
+  background-color: rgba(255, 255, 255, 0.044);
   color: #060606;
   display: flex;
   flex-direction: row;
@@ -714,10 +714,6 @@ main {
   border-radius: 10px;
 }
 
-.portfolio .test {
-  margin-bottom: 20px; /* Assure qu'il y a un espace entre le titre et les projets */
-}
-
 .link {
   width: 100%;
   display: flex;
@@ -726,6 +722,7 @@ main {
   align-items: center;
   text-align: center;
   margin-bottom: 40%;
+  padding: 20%;
 }
 
 .linkContent {
