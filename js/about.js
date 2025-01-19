@@ -35,9 +35,10 @@ gsap.fromTo(
     scale: 1.1,
     opacity: 1, // Valeur finale
     scrollTrigger: {
-      trigger: ".aboutContentIn.One",
-      start: "top 50%",
+      trigger: ".about h1",
+      start: "top 70%",
       end: "top 25%",
+
 
       scrub: true,
 
@@ -58,8 +59,8 @@ gsap.fromTo(
     scale: 1.1,
     opacity: 1, // Valeur finale
     scrollTrigger: {
-      trigger: ".aboutContentIn.One",
-      start: "top 50%",
+      trigger: ".about h1",
+      start: "top 70%",
       end: "top 25%",
 
       scrub: true,

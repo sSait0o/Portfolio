@@ -28,7 +28,7 @@ gsap.fromTo(
   {
     y: 80,
 
-    opacity: 0, // Valeur initiale
+    opacity: 0.3, // Valeur initiale
   },
   {
     y: 0,
