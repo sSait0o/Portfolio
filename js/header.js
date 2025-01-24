@@ -11,7 +11,7 @@ gsap.fromTo(
     opacity: 0, // Valeur finale
     scrollTrigger: {
       trigger: ".arrow",
-      start: "top 30%",
+      start: "top 70%",
 
       scrub: true,
 
@@ -89,7 +89,7 @@ gsap.fromTo(
     scale: 1, // Valeur finale
     scrollTrigger: {
       trigger: "header img",
-      start: "top 80%",
+      start: "top 100%",
       end: "top top",
       scrub: true,
 
