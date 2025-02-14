@@ -8,28 +8,25 @@ const Projects = () => {
   const portfolioRef = useRef(null);
 
   useEffect(() => {
-    // Enregistre le plugin ScrollTrigger
     gsap.registerPlugin(ScrollTrigger);
 
     const projects = projectsRef.current;
     const portfolio = portfolioRef.current;
 
-    // Animation GSAP
     gsap.to(projects, {
       x: () =>
-        -(projects.scrollWidth - document.documentElement.clientWidth) + "px", // Déplacement horizontal complet
-      ease: "none", // Animation fluide
+        -(projects.scrollWidth - document.documentElement.clientWidth) + "px", //
+      ease: "none",
       scrollTrigger: {
         trigger: portfolio,
         start: "top 0%",
         end: "bottom -50%",
-        scrub: 1,
+        scrub: true,
         pin: true,
         anticipatePin: 1,
       },
     });
 
-    // Cleanup lorsque le composant est démonté
     return () => {
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
