@@ -1,0 +1,76 @@
+/* Styles globaux */
+.portfolioh1 {
+  margin-top: 8%;
+}
+
+.portfolio {
+  padding-left: 0%;
+  text-align: center;
+  padding-bottom: 50%;
+  /* Ajout d'un padding en bas pour le confort du scroll */
+}
+
+.wrapper {
+  height: 100vh; /* La hauteur remplit l'écran */
+  display: flex;
+  align-items: center;
+  margin-bottom: 20%;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.projects {
+  display: flex;
+  gap: 40px;
+  padding-left: 100vw;
+  flex-wrap: nowrap;
+}
+
+.project {
+  color: #060606;
+  background-color: rgba(0, 0, 0, 0.014);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 4vw;
+  padding: 0.5%;
+  border: none;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.037);
+  box-shadow: 0 0 5px #ffffff, 0 0 15px #e2e2e2, 0 0 30px #bbbbbb,
+    0 0 60px #7a7a7a, 0 0 120px #565656;
+}
+
+.projectDesc {
+  width: 30vw;
+  max-width: 1420px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projectDesc h2 {
+  margin-bottom: 4%;
+}
+
+.projectDesc p {
+  margin-bottom: 4%;
+}
+
+.projectDesc button {
+  width: 20%;
+}
+
+.projectImg {
+  width: 50vw;
+  padding: 2%;
+}
+
+.project img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}

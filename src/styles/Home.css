@@ -1,0 +1,42 @@
+.arrowContainer {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  scale: 3;
+  filter: invert(1);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerContent {
+  margin: 15%;
+}
+
+.headerContent h1 {
+  margin-bottom: 30px;
+  padding: 3%;
+}
+
+.headerContent h2 {
+  margin-bottom: 30px;
+  width: 50vw;
+  max-width: 1420px;
+  padding: 2%;
+}
+
+.stick {
+  width: 20%;
+  max-width: 10%;
+  height: auto;
+  position: relative;
+  top: -200px;
+  margin-top: 15px;
+}

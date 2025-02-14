@@ -1,0 +1,50 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: row;
+
+  width: 70%;
+}
+
+.aboutContentIn {
+  margin: 10%;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+  border: none;
+  width: 60vw;
+  border: 1px dashed rgb(255, 255, 255);
+}
+
+.aboutContentIn img {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  width: 150px;
+  border-radius: 100px;
+  box-shadow: 0 0 5px #ffffff, /* Ombre légère en rose */ 0 0 15px #e2e2e2,
+    /* Ombre plus large en rose */ 0 0 30px #bbbbbb,
+    /* Ombre encore plus large */ 0 0 60px #7a7a7a,
+    /* Ombre verte */ 0 0 120px #565656; /* Ombre encore plus grande verte */
+  filter: invert(1);
+}
+.aboutContentIn h2 {
+  margin-bottom: 10%;
+}
+.aboutContentIn p {
+  text-align: left;
+  margin: 5%;
+}
