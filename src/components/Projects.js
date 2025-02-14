@@ -13,15 +13,16 @@ const Projects = () => {
     const projects = projectsRef.current;
     const portfolio = portfolioRef.current;
 
+    const scrollWidth =
+      projects.scrollWidth - document.documentElement.clientWidth;
     gsap.to(projects, {
-      x: () =>
-        -(projects.scrollWidth - document.documentElement.clientWidth) + "px", //
+      x: -scrollWidth + "px",
       ease: "none",
       scrollTrigger: {
         trigger: portfolio,
         start: "top 0%",
         end: "bottom -50%",
-        scrub: true,
+        scrub: 0.5,
         pin: true,
         anticipatePin: 1,
       },

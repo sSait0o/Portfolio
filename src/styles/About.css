@@ -35,10 +35,7 @@ main {
   margin-bottom: 10%;
   width: 150px;
   border-radius: 100px;
-  box-shadow: 0 0 5px #ffffff, /* Ombre légère en rose */ 0 0 15px #e2e2e2,
-    /* Ombre plus large en rose */ 0 0 30px #bbbbbb,
-    /* Ombre encore plus large */ 0 0 60px #7a7a7a,
-    /* Ombre verte */ 0 0 120px #565656; /* Ombre encore plus grande verte */
+  box-shadow: 0 0 5px #ffffff, 0 0 30px #bbbbbb, 0 0 60px #7a7a7a;
   filter: invert(1);
 }
 .aboutContentIn h2 {
