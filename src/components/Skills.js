@@ -32,6 +32,23 @@ const Skills = () => {
       }
     );
 
+    gsap.fromTo(
+      ".skill h2",
+      {
+        opacity: 0, // Valeur initiale
+      },
+      {
+        opacity: 1, // Valeur finale
+        scrollTrigger: {
+          trigger: ".skill h1",
+          start: "top 70%",
+          end: "top 25%",
+          scrub: true,
+          toggleActions: "restart pause reverse pause",
+        },
+      }
+    );
+
     // Animation des éléments .item
     gsap.fromTo(
       ".item",
