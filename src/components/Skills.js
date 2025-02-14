@@ -63,51 +63,39 @@ const Skills = () => {
           <div className="items">
             <div className="item">
               <img src="images/gsap.svg" alt="gsap" />
-              <p>GSAP</p>
             </div>
             <div className="item">
               <img src="images/js.png" alt="js" />
-              <p>JavaScript</p>
             </div>
             <div className="item">
               <img src="images/unixlinux.webp" alt="php" />
-              <p>UNIX/LINUX</p>
             </div>
             <div className="item">
-              <img src="images/symfony.png" alt="symfony" />
-              <p>Symfony</p>
+              <img src="public\images\symfony.png" />
             </div>
             <div className="item">
               <img src="images/alpinejs.svg" alt="alpinejs" />
-              <p>Alpine.JS</p>
             </div>
             <div className="item">
               <img src="images/CSS.svg" alt="css" />
-              <p>CSS</p>
             </div>
             <div className="item">
               <img src="images/C.png" alt="c" />
-              <p>C</p>
             </div>
             <div className="item">
               <img src="images/postgre.png" alt="postgresql" />
-              <p>PostgreSQL</p>
             </div>
             <div className="item">
               <img src="images/php.png" alt="php" />
-              <p>PHP</p>
             </div>
             <div className="item">
               <img src="images/mysql.svg" alt="mysql" />
-              <p>MySQL</p>
             </div>
             <div className="item">
               <img src="images/java.webp" alt="java" />
-              <p>Java</p>
             </div>
             <div className="item">
               <img src="images/HTML5_logo_and_wordmark.svg.png" alt="html" />
-              <p>HTML</p>
             </div>
           </div>
         </div>
@@ -116,23 +104,18 @@ const Skills = () => {
           <div className="items">
             <div className="item">
               <img src="images/figma.png" alt="figma" />
-              <p>Figma</p>
             </div>
             <div className="item">
               <img src="images/git.png" alt="git" />
-              <p>Git</p>
             </div>
             <div className="item">
               <img src="images/vscode.png" alt="vscode" />
-              <p>VS Code</p>
             </div>
             <div className="item">
               <img src="images/webflow.png" alt="webflow" />
-              <p>Webflow</p>
             </div>
             <div className="item">
               <img src="images/docker.webp" alt="docker" />
-              <p>Docker</p>
             </div>
           </div>
         </div>
