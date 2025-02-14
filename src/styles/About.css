@@ -45,3 +45,7 @@ main {
   text-align: left;
   margin: 5%;
 }
+
+.aboutContentIn .Two img {
+  filter: invert(1);
+}
