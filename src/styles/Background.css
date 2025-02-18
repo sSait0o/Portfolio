@@ -366,7 +366,6 @@
 }
 
 svg {
-  height: 100%;
   z-index: 0;
   filter: blur(1.7px);
 }

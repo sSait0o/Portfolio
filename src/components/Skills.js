@@ -88,7 +88,7 @@ const Skills = () => {
               <img src="images/unixlinux.webp" alt="php" />
             </div>
             <div className="item">
-              <img src="public\images\symfony.png" />
+              <img src="public\images\symfony.png" alt="symfony" />
             </div>
             <div className="item">
               <img src="images/alpinejs.svg" alt="alpinejs" />
