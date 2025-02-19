@@ -21,7 +21,9 @@ const Home = () => {
         opacity: 0,
         scrollTrigger: {
           trigger: arrowRef.current,
-          start: "top 70%",
+          start: "top 0%",
+          end: "top -20%",
+
           scrub: true,
           toggleActions: "restart pause reverse pause",
         },
