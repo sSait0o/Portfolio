@@ -77,7 +77,7 @@ const Skills = () => {
       <img
         src="images/perso2.png"
         alt="stick"
-        className="stick"
+        className="stickTwo"
         ref={SkillImg}
       />
       <h1>COMPÉTENCES</h1>

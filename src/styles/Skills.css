@@ -56,12 +56,13 @@
   color: #ffffff;
 }
 
-.stick {
+.stickTwo {
   width: 20%;
   max-width: 10%;
   height: auto;
   position: relative;
-  top: 100px;
-  right: 500px;
+  top: 115px;
+  right: 480px;
   margin-top: 15px;
+  filter: invert(1);
 }
