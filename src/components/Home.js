@@ -108,7 +108,7 @@ const Home = () => {
           application. Pour en savoir plus sur moi, vous êtes au bon endroit.
         </h2>
         <a
-          href="cv/QuentinCvAlternance.pdf"
+          href="/cv/QuentinCvAlternance.pdf"
           download="QuentinCvAlternance.pdf"
           target="_blank"
         >
