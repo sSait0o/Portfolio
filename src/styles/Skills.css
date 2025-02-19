@@ -55,3 +55,13 @@
   font-size: 14px;
   color: #ffffff;
 }
+
+.stick {
+  width: 20%;
+  max-width: 10%;
+  height: auto;
+  position: relative;
+  top: 100px;
+  right: 500px;
+  margin-top: 15px;
+}

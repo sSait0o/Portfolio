@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { gsap } from "gsap"; // Importation de GSAP
 import { ScrollTrigger } from "gsap/ScrollTrigger"; // Importation de ScrollTrigger
 import "../styles/Skills.css";
@@ -7,6 +7,7 @@ import "../styles/Skills.css";
 gsap.registerPlugin(ScrollTrigger);
 
 const Skills = () => {
+  const SkillImg = useRef(null);
   const [tab, setTab] = useState("tab1");
 
   // Utilisation de useEffect pour initialiser les animations à l'affichage du composant
@@ -69,10 +70,16 @@ const Skills = () => {
         },
       }
     );
-  }, []); // L'array vide [] garantit que l'animation se lance une seule fois après le montage du composant
+  }, []);
 
   return (
     <section className="skill" id="skill">
+      <img
+        src="images/persobon1.png"
+        alt="stick"
+        className="stick"
+        ref={SkillImg}
+      />
       <h1>COMPÉTENCES</h1>
       <div className="skillContainer">
         <div className="skillContent">
@@ -88,7 +95,7 @@ const Skills = () => {
               <img src="images/unixlinux.webp" alt="php" />
             </div>
             <div className="item">
-              <img src="public\images\symfony.png" alt="symfony" />
+              <img src="images/symfony.png" alt="symfony" />
             </div>
             <div className="item">
               <img src="images/alpinejs.svg" alt="alpinejs" />
