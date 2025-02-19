@@ -73,14 +73,14 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className="skill" id="skill">
+    <section className="skill">
       <img
         src="images/perso2.png"
         alt="stick"
         className="stickTwo"
         ref={SkillImg}
       />
-      <h1>COMPÉTENCES</h1>
+      <h1 id="skill">COMPÉTENCES</h1>
       <div className="skillContainer">
         <div className="skillContent">
           <h2>TECHNOLOGIES</h2>
