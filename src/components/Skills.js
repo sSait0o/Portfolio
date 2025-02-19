@@ -75,7 +75,7 @@ const Skills = () => {
   return (
     <section className="skill" id="skill">
       <img
-        src="images/persobon1.png"
+        src="images/perso2.png"
         alt="stick"
         className="stick"
         ref={SkillImg}
