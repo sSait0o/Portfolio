@@ -110,7 +110,6 @@ const Home = () => {
         <a
           href="/cv/QuentinCvAlternance.pdf"
           download="QuentinCvAlternance.pdf"
-          target="_blank"
         >
           <button id="buttoncv" ref={buttonRef}>
             Télécharger mon CV
