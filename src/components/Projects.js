@@ -35,7 +35,9 @@ const Projects = () => {
 
   return (
     <>
-      <h1 className="portfolioh1">Projets Réalisés</h1>
+      <h1 className="portfolioh1" id="project">
+        Projets Réalisés
+      </h1>
       <section className="portfolio" ref={portfolioRef}>
         <div className="wrapper">
           <div className="projects" ref={projectsRef}>
