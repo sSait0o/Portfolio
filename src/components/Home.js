@@ -109,13 +109,8 @@ const Home = () => {
           Je suis Quentin, actuellement en Bachelor de développement web &
           application. Pour en savoir plus sur moi, vous êtes au bon endroit.
         </h2>
-        <a
-          href="/cv/QuentinCvAlternance.pdf"
-          download="QuentinCvAlternance.pdf"
-        >
-          <button id="buttoncv" ref={buttonRef}>
-            Télécharger mon CV
-          </button>
+        <a href="/cv/QuentinCvAlternance.pdf" download>
+          <button id="buttoncv">Télécharger mon CV</button>
         </a>
       </section>
       <img
