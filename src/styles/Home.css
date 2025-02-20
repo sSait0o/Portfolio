@@ -52,7 +52,8 @@ header {
     width: 100%;
   }
   .stick {
-    width: 40%;
+    width: 30vw;
+    max-width: 30vw;
     height: auto;
     position: relative;
     top: 50px;
