@@ -32,3 +32,9 @@ nav {
   top: 2px;
   border-bottom: 4px solid white;
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}

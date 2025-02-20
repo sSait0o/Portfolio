@@ -40,3 +40,23 @@ header {
   top: -200px;
   margin-top: 15px;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  button {
+    margin-top: 5vh;
+    padding: 5%;
+    width: 100%;
+  }
+  .stick {
+    width: 20%;
+    max-width: 10%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    margin-top: 15px;
+  }
+}

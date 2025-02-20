@@ -49,3 +49,16 @@ main {
 .aboutContentIn .Two img {
   filter: invert(1);
 }
+
+@media screen and (max-width: 768px) {
+  .about {
+    margin-top: 50%;
+  }
+
+  .about h1 {
+    margin-bottom: 10%;
+  }
+  .aboutContent {
+    flex-direction: column;
+  }
+}

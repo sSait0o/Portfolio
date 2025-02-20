@@ -66,3 +66,20 @@
   margin-top: 15px;
   filter: invert(1);
 }
+
+@media screen and (max-width: 768px) {
+  .skill h1 {
+    margin-bottom: 10%;
+  }
+  .skillContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  .items {
+    width: 80vw;
+    justify-content: center;
+  }
+}
