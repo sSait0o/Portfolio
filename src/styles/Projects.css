@@ -11,7 +11,7 @@
 }
 
 .wrapper {
-  height: 100vh; /* La hauteur remplit l'écran */
+  height: 100vh;
   display: flex;
   align-items: center;
   margin-bottom: 20%;
@@ -72,4 +72,10 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .project button {
+    width: 50%;
+  }
 }

@@ -81,8 +81,8 @@ const Projects = () => {
               <div className="projectDesc">
                 <h2>CRUD en PHP</h2>
                 <p>
-                  Créer/Lire/MaJ/Supprimer des produits et catégories avec une
-                  BDD.
+                  Créer/ Lire/ MaJ/ Supprimer des produits et catégories avec
+                  une BDD.
                 </p>
                 <a href="https://github.com/sSait0o/PHP-CRUD" target="_blank">
                   <button>Voir</button>
