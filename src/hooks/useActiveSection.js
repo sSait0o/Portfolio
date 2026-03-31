@@ -1,9 +1,5 @@
 import { useState, useEffect } from "react";
 
-/**
- * Tracks which section is currently visible in the viewport.
- * Returns the id of the active section.
- */
 const useActiveSection = () => {
   const [activeSection, setActiveSection] = useState("");
 
