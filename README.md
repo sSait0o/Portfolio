@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# 👋 Hi, I'm Quentin Leboucher
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎓 **Fullstack Developer — Bachelor Web & App Development · Mastère Data Engineer & IA (Efrei — Villejuif)**<br>
+💼 Looking for an apprenticeship in **Data & AI** for 2026–2028<br>
+📍 Passionate about coding, web integration, data, and DevOps tools
 
-## Available Scripts
+## 🔧 Skills
 
-In the project directory, you can run:
+### 🖥️ Languages
 
-### `npm start`
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🚀 Frameworks & Libraries
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+![Symfony](https://img.shields.io/badge/symfony-%23000000.svg?style=for-the-badge&logo=symfony&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Alpine.js](https://img.shields.io/badge/alpinejs-white.svg?style=for-the-badge&logo=alpinedotjs&logoColor=%238BC0D0)
 
-### `npm test`
+### 🗄️ Databases
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 
-### `npm run build`
+### ⚙️ Tools & Platforms
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Experience
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* 🗺️ **Full Stack Dev — TTGE** *(Alternance, Sep 2025 – Aug 2026)* — Geospatial data platform (GDA): PostgreSQL, Mapbox GL JS, OpenData sync across 11 agencies
+* 💻 **Full Stack Dev — Leets** *(Internship, May–Jun 2025)* — CRM & interactive dashboard (React, TypeScript, Nest.js, Prisma, ShadCN, Tailwind), CI/CD, SEO, Agile/Jira
+* 🌐 **Frontend Dev — Leets** *(Internship, May–Jun 2024)* — Web integration with Webflow, React, GSAP — [leets.app](https://www.leets.app)
+* 🛒 **Interim — Elivia** *(2024–2025)* — Food distribution logistics
 
-### `npm run eject`
+## 🎓 Education
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* **Mastère Data Engineer & IA** — Efrei Villejuif *(2026–2028)*
+* **Bachelor Web & Application Development** — Efrei Villejuif *(2023–2026)*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🏅 Certifications
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Java Object-Oriented Programming — JetBrains *(Jul. 2025)*
+* Big Data Foundations — Project Management Institute *(Jul. 2025)*
+* Data Engineering Foundations — NASBA *(Jul. 2025)*
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📂 Projects
 
-## Learn More
+Various academic & personal projects — see my [portfolio](https://ssait0o.github.io/Portfolio/) and [GitHub](https://github.com/ssait0o)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🌍 Languages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* 🇬🇧 English: B2
+* 🇫🇷 French: Native
 
-### Code Splitting
+## 📊 GitHub Stats
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![](https://github-readme-stats.vercel.app/api?username=sSait0o&theme=vue&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=sSait0o&theme=vue&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=sSait0o&theme=vue&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-### Analyzing the Bundle Size
+---
+[![](https://visitcount.itsvg.in/api?id=sSait0o&icon=0&color=3)](https://visitcount.itsvg.in)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📫 Contact
 
-### Making a Progressive Web App
+* ✉️ [quentin.leboucher.pro@gmail.com](mailto:quentin.leboucher.pro@gmail.com)
+* 🔗 [LinkedIn](https://www.linkedin.com/in/quentin-leboucher/)
+* 🌐 [Portfolio](https://ssait0o.github.io/Portfolio/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🛠️ Stack du projet
 
-### Advanced Configuration
+| | |
+|---|---|
+| **Framework** | React 19 + Vite |
+| **Animations** | GSAP + ScrollTrigger |
+| **Déploiement** | GitHub Pages |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run dev      # développement
+npm run build    # build production
+npm run deploy   # déploiement GitHub Pages
+```

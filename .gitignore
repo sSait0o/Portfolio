@@ -23,3 +23,6 @@ yarn-error.log*
 
 # Claude Code
 .claude/
+
+# CV (données personnelles)
+*.pdf
