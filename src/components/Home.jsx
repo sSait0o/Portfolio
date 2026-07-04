@@ -27,44 +27,50 @@ const Home = () => {
 
       gsap.fromTo(
         headerContentRef.current.querySelector("h1"),
-        { x: -100, opacity: 0 },
+        { x: -160, opacity: 0 },
         {
           x: 0,
           opacity: 1,
+          duration: 1,
+          ease: "power2.out",
           scrollTrigger: {
             trigger: headerContentRef.current.querySelector("h1"),
-            start: "top 80%",
-            end: "top 30%",
-            scrub: true,
+            start: "top 90%",
+            toggleActions: "play none none none",
           },
         }
       );
 
       gsap.fromTo(
         headerContentRef.current.querySelector("h2"),
-        { x: 100, opacity: 0 },
+        { x: 160, opacity: 0 },
         {
           x: 0,
           opacity: 1,
+          duration: 1,
+          delay: 0.2,
+          ease: "power2.out",
           scrollTrigger: {
             trigger: headerContentRef.current.querySelector("h2"),
-            start: "top 80%",
-            end: "top 30%",
-            scrub: true,
+            start: "top 90%",
+            toggleActions: "play none none none",
           },
         }
       );
 
       gsap.fromTo(
         buttonRef.current,
-        { opacity: 0 },
+        { opacity: 0, y: 30 },
         {
           opacity: 1,
+          y: 0,
+          duration: 0.8,
+          delay: 0.4,
+          ease: "power2.out",
           scrollTrigger: {
             trigger: buttonRef.current,
-            start: "top 80%",
-            end: "top 80%",
-            scrub: true,
+            start: "top 90%",
+            toggleActions: "play none none none",
           },
         }
       );
@@ -75,11 +81,12 @@ const Home = () => {
         {
           opacity: 1,
           scale: 1,
+          duration: 1,
+          ease: "power2.out",
           scrollTrigger: {
             trigger: headerImgRef.current,
-            start: "top 100%",
-            end: "top 50%",
-            scrub: true,
+            start: "top 90%",
+            toggleActions: "play none none none",
           },
         }
       );

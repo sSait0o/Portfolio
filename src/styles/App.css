@@ -1,5 +1,9 @@
 /* src/styles/App.css */
 
+:root {
+  --glow-soft: 0 0 1px rgba(255, 255, 255, 0.6), 0 0 18px rgba(255, 255, 255, 0.1);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,18 +20,38 @@ img {
   width: 50px;
 }
 
+section,
+header {
+  scroll-margin-top: 90px;
+}
+
+h1 {
+  font-size: clamp(1.3rem, 1rem + 1.4vw, 1.8rem);
+}
+
+h2 {
+  font-size: clamp(1.05rem, 0.9rem + 0.8vw, 1.3rem);
+}
+
+p,
+li {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
 button {
   background-color: rgba(0, 0, 0, 0);
   border: none;
   border-bottom: 2px solid white;
   border-radius: 6px;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   cursor: pointer;
-  padding: 0.7%;
+  padding: 12px 28px;
   transition-duration: 0.3s;
-  width: 13vw;
-  box-shadow: 0 0 5px #ffffff, 0 0 30px #bbbbbb, 0 0 60px #7a7a7a;
+  width: auto;
+  white-space: nowrap;
+  box-shadow: var(--glow-soft);
   pointer-events: auto;
 }
 

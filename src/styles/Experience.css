@@ -2,24 +2,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5% 5% 2%;
+  padding: 13rem 1.5rem 3rem;
   width: 100%;
 }
 
 .experienceList {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  width: 60vw;
-  margin-top: 30px;
+  gap: 24px;
+  width: 100%;
+  max-width: 820px;
+  margin-top: 2rem;
 }
 
 .experienceItem {
   text-align: left;
-  padding: 2% 3%;
-  border-radius: 20px;
+  padding: 1.25rem 1.5rem;
+  border-radius: 16px;
   border: #ffffff 2px solid;
-  box-shadow: 0 0 5px #ffffff, 0 0 30px #bbbbbb, 0 0 60px #7a7a7a;
+  box-shadow: var(--glow-soft);
 }
 
 .experienceHeader {

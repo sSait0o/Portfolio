@@ -10,16 +10,15 @@ const Skills = () => {
     const ctx = gsap.context(() => {
       gsap.fromTo(
         ".skill h1",
-        { y: 80, opacity: 0 },
+        { y: 40, opacity: 0 },
         {
           y: 0,
-          scale: 1.1,
           opacity: 1,
+          duration: 0.6,
           scrollTrigger: {
             trigger: ".skill h1",
-            start: "top 70%",
-            end: "top 25%",
-            scrub: true,
+            start: "top 90%",
+            toggleActions: "play none none none",
           },
         }
       );
@@ -35,7 +34,7 @@ const Skills = () => {
             trigger: ".skillPill",
             start: "top 100%",
             end: "top 40%",
-            toggleActions: "restart none none none",
+            toggleActions: "play none none none",
           },
         }
       );
@@ -54,7 +53,7 @@ const Skills = () => {
             <div className="skillPills">
               {items.map(({ src, alt }) => (
                 <div className="skillPill" key={alt}>
-                  <img src={src} alt="" />
+                  {src && <img src={src} alt="" />}
                   <span>{alt}</span>
                 </div>
               ))}

@@ -9,41 +9,46 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 13rem;
+  padding: 0 1.5rem 3rem;
 }
 
 .aboutContent {
   display: flex;
   flex-direction: row;
-
-  width: 70%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 900px;
+  margin-top: 2rem;
 }
 
 .aboutContentIn {
-  margin: 10%;
   justify-content: center;
   text-align: center;
   border-radius: 10px;
   transition: 0.3s;
-  border: none;
-  width: 60vw;
-  border: 1px dashed rgb(255, 255, 255);
+  width: 320px;
+  max-width: 100%;
+  padding: 2rem 1.5rem;
+  border: 1px dashed rgba(255, 255, 255, 0.7);
 }
 
 .aboutContentIn img {
-  margin-top: 5%;
-  margin-bottom: 10%;
-  width: 150px;
+  margin-bottom: 1.25rem;
+  width: 88px;
+  height: 88px;
   border-radius: 100px;
-  box-shadow: 0 0 5px #ffffff, 0 0 30px #bbbbbb, 0 0 60px #7a7a7a;
+  box-shadow: var(--glow-soft);
   filter: invert(1);
 }
 .aboutContentIn h2 {
-  margin-bottom: 10%;
+  margin-bottom: 1rem;
 }
 .aboutContentIn p {
   text-align: left;
-  margin: 5%;
+  margin: 0;
 }
 
 .aboutContentIn .Two img {
@@ -52,11 +57,11 @@ main {
 
 @media screen and (max-width: 768px) {
   .about {
-    margin-top: 50%;
+    margin-top: 3rem;
   }
 
   .about h1 {
-    margin-bottom: 10%;
+    margin-bottom: 1rem;
   }
   .aboutContent {
     flex-direction: column;

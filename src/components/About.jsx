@@ -13,48 +13,49 @@ const About = () => {
 
       gsap.fromTo(
         h1,
-        { y: 80, opacity: 0 },
+        { y: 120, opacity: 0 },
         {
           y: 0,
-          scale: 1.1,
           opacity: 1,
+          duration: 1,
+          ease: "power2.out",
           scrollTrigger: {
             trigger: h1,
-            start: "top 70%",
-            end: "top 25%",
-            scrub: true,
+            start: "top 85%",
+            toggleActions: "play none none none",
           },
         }
       );
 
       gsap.fromTo(
         contentOneRef.current,
-        { y: -80, opacity: 0 },
+        { y: 100, opacity: 0 },
         {
           y: 0,
-          scale: 1.1,
           opacity: 1,
+          duration: 0.9,
+          ease: "power2.out",
           scrollTrigger: {
-            trigger: h1,
-            start: "top 70%",
-            end: "top 25%",
-            scrub: true,
+            trigger: contentOneRef.current,
+            start: "top 85%",
+            toggleActions: "play none none none",
           },
         }
       );
 
       gsap.fromTo(
         contentTwoRef.current,
-        { y: 80, opacity: 0 },
+        { y: 100, opacity: 0 },
         {
           y: 0,
-          scale: 1.1,
           opacity: 1,
+          duration: 0.9,
+          delay: 0.2,
+          ease: "power2.out",
           scrollTrigger: {
-            trigger: h1,
-            start: "top 70%",
-            end: "top 25%",
-            scrub: true,
+            trigger: contentTwoRef.current,
+            start: "top 85%",
+            toggleActions: "play none none none",
           },
         }
       );

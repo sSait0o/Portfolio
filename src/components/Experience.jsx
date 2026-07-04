@@ -10,16 +10,15 @@ const Experience = () => {
     const ctx = gsap.context(() => {
       gsap.fromTo(
         ".experience h1",
-        { y: 80, opacity: 0 },
+        { y: 40, opacity: 0 },
         {
           y: 0,
-          scale: 1.1,
           opacity: 1,
+          duration: 0.6,
           scrollTrigger: {
             trigger: ".experience h1",
-            start: "top 70%",
-            end: "top 25%",
-            scrub: true,
+            start: "top 90%",
+            toggleActions: "play none none none",
           },
         }
       );
@@ -35,7 +34,7 @@ const Experience = () => {
             trigger: ".experienceItem",
             start: "top 130%",
             end: "top -50%",
-            toggleActions: "restart none none none",
+            toggleActions: "play none none none",
           },
         }
       );
