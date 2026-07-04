@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { technologies, tools } from "../data/skills";
+import skillCategories from "../data/skills";
 import "../styles/Skills.css";
 
 const Skills = () => {
@@ -25,31 +25,16 @@ const Skills = () => {
       );
 
       gsap.fromTo(
-        ".skill h2",
-        { opacity: 0 },
-        {
-          opacity: 1,
-          scrollTrigger: {
-            trigger: ".skill h1",
-            start: "top 70%",
-            end: "top 25%",
-            scrub: true,
-          },
-        }
-      );
-
-      gsap.fromTo(
-        ".item",
-        { opacity: 0, y: 100 },
+        ".skillPill",
+        { opacity: 0, y: 30 },
         {
           opacity: 1,
           y: 0,
-          scrub: true,
-          stagger: 0.2,
+          stagger: 0.05,
           scrollTrigger: {
-            trigger: ".item",
-            start: "top 130%",
-            end: "top -50%",
+            trigger: ".skillPill",
+            start: "top 100%",
+            end: "top 40%",
             toggleActions: "restart none none none",
           },
         }
@@ -60,30 +45,22 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className="skill" ref={sectionRef}>
-      <img src="images/perso2.png" alt="Personnage" className="stickTwo" />
-      <h1 id="skill">COMPÉTENCES</h1>
-      <div className="skillContainer">
-        <div className="skillContent">
-          <h2>TECHNOLOGIES</h2>
-          <div className="items">
-            {technologies.map(({ src, alt }) => (
-              <div className="item" key={alt}>
-                <img src={src} alt={alt} />
-              </div>
-            ))}
+    <section className="skill" id="skill" ref={sectionRef}>
+      <h1>COMPÉTENCES</h1>
+      <div className="skillCategories">
+        {skillCategories.map(({ name, items }) => (
+          <div className="skillCategory" key={name}>
+            <h2>{name}</h2>
+            <div className="skillPills">
+              {items.map(({ src, alt }) => (
+                <div className="skillPill" key={alt}>
+                  <img src={src} alt="" />
+                  <span>{alt}</span>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="skillContent">
-          <h2>OUTILS</h2>
-          <div className="items">
-            {tools.map(({ src, alt }) => (
-              <div className="item" key={alt}>
-                <img src={src} alt={alt} />
-              </div>
-            ))}
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );
