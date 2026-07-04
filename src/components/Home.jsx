@@ -96,8 +96,9 @@ const Home = () => {
       <section className="headerContent" id="home" ref={headerContentRef}>
         <h1>SALUT !</h1>
         <h2>
-          Je suis Quentin, actuellement en Bachelor de développement web &
-          application. Pour en savoir plus sur moi, vous êtes au bon endroit.
+          Je suis Quentin, développeur Full-Stack en recherche d'une
+          alternance Data & IA (2026-2028). Pour en savoir plus sur moi, vous
+          êtes au bon endroit.
         </h2>
         <a href={`${import.meta.env.BASE_URL}cv/QuentinCvAlternance.pdf`} download>
           <button id="buttoncv" ref={buttonRef}>Télécharger mon CV</button>
