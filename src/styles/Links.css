@@ -3,62 +3,106 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10%;
+  padding: 13rem 1.5rem 5rem;
 }
 
 .linkContent {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
   width: 100%;
+  margin-top: 2rem;
 }
 
 .linkContentIn {
-  width: 40vw;
-  margin: 5%;
-  margin-top: 10%;
+  width: 380px;
+  max-width: 100%;
 }
 
-.linkContent a {
+.linkCard {
   position: relative;
-
-  transform: translate(-50%, -50%);
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-size: 20px;
-  font-weight: bold;
-
-  background-color: #060606c3;
-  transition-duration: 0.8s;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  text-align: left;
+  padding: 1.25rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: var(--glow-soft);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
-.linkContentIn a:hover {
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  transition-duration: 0.8s;
+.linkCard:hover,
+.linkCard:focus-visible {
+  transform: translateY(-6px);
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.8),
+    0 0 30px rgba(255, 255, 255, 0.2);
 }
 
-.linkContentIn img {
+.linkThumb {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.linkThumb img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
   display: block;
-  filter: blur(1);
-  border-radius: 10px;
-  box-shadow: 0 0 5px #ffffff, 0 0 30px #bbbbbb, 0 0 60px #7a7a7a;
+}
+
+.linkCardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.linkTitle {
+  font-size: 1.05rem;
+  text-align: left;
+  margin: 0;
+}
+
+.linkHandle {
+  font-size: 0.8rem;
+  text-align: left;
+  opacity: 0.55;
+  margin: 0 0 6px;
+}
+
+.linkDesc {
+  font-size: 0.85rem;
+  text-align: left;
+  opacity: 0.8;
+  margin: 0 0 8px;
+}
+
+.linkCta {
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0.9;
 }
 
 @media screen and (max-width: 768px) {
   .link {
-    margin-bottom: 85%;
+    margin-bottom: 3rem;
   }
 
   .linkContent {
-    margin-top: 50%;
+    margin-top: 2rem;
     flex-direction: column;
-    gap: 70px;
+    gap: 24px;
   }
 
   .linkContentIn {
-    width: 60vw;
+    width: 85vw;
   }
 }
