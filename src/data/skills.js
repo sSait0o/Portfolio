@@ -17,6 +17,7 @@ export const technologies = [
   { src: "images/mysql.svg", alt: "MySQL" },
   { src: "images/HTML5_logo_and_wordmark.svg.png", alt: "HTML5" },
   { src: "images/CSS.svg", alt: "CSS" },
+  { src: "images/gsap.svg", alt: "GSAP" },
   { src: "images/unixlinux.webp", alt: "Unix/Linux" },
   { src: "images/alpinejs.svg", alt: "Alpine.js" },
   { src: "images/symfony.png", alt: "Symfony" },
