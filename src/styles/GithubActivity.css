@@ -1,0 +1,61 @@
+.github {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 13rem 1.5rem 3rem;
+}
+
+.githubGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 2rem;
+}
+
+.githubCard {
+  border-radius: 20px;
+  border: #ffffff 2px solid;
+  background-color: #0d1117;
+  padding: 16px;
+  box-shadow: var(--glow-soft);
+}
+
+.githubCard img {
+  display: block;
+  height: auto;
+}
+
+.githubCard--graph {
+  flex: 2 1 420px;
+}
+
+.githubCard--graph img {
+  width: 100%;
+}
+
+.githubCard--streak {
+  flex: 1 1 320px;
+}
+
+.githubCard--streak img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .githubGrid {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .githubCard--graph,
+  .githubCard--streak {
+    width: 90%;
+    flex: none;
+  }
+}

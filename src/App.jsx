@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import GithubActivity from "./components/GithubActivity";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Links from "./components/Links";
@@ -21,6 +22,7 @@ const App = () => {
       <Home />
       <About />
       <Skills />
+      <GithubActivity />
       <Experience />
       <Projects />
       <Links />
