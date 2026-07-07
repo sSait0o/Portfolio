@@ -8,6 +8,17 @@ const Home = () => {
   const buttonRef = useRef(null);
   const headerImgRef = useRef(null);
 
+  const handleContactClick = (e) => {
+    e.preventDefault();
+    const target = document.getElementById("link");
+    if (!target) return;
+    const nav = document.querySelector("nav");
+    window.scrollTo({
+      top: target.offsetTop - (nav ? nav.offsetHeight : 0),
+      behavior: "smooth",
+    });
+  };
+
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.fromTo(
@@ -101,22 +112,40 @@ const Home = () => {
         <img src="images/arrow.png" alt="Flèche de défilement" className="arrow" />
       </div>
       <section className="headerContent" id="home" ref={headerContentRef}>
-        <h1>SALUT !</h1>
-        <h2>
-          Je suis Quentin, développeur Full-Stack en recherche d'une
-          alternance Data & IA (2026-2028). Pour en savoir plus sur moi, vous
-          êtes au bon endroit.
-        </h2>
-        <a href={`${import.meta.env.BASE_URL}cv/QuentinCvAlternance.pdf`} download>
-          <button id="buttoncv" ref={buttonRef}>Télécharger mon CV</button>
-        </a>
+        <div className="heroPanel">
+          <span className="heroBadge">
+            <span className="heroDot" />
+            Disponible pour une alternance Data & IA
+          </span>
+          <h1>
+            Salut, je suis <span className="heroName">Quentin</span>
+          </h1>
+          <h2>
+            Développeur Full-Stack en recherche d'une alternance Data & IA
+            (2026-2028). Pour en savoir plus sur moi, vous êtes au bon
+            endroit.
+          </h2>
+          <div className="heroActions" ref={buttonRef}>
+            <a
+              href={`${import.meta.env.BASE_URL}cv/QuentinCvAlternance.pdf`}
+              download
+            >
+              <button id="buttoncv">Télécharger mon CV</button>
+            </a>
+            <a href="#link" className="heroSecondaryLink" onClick={handleContactClick}>
+              Me contacter
+            </a>
+          </div>
+        </div>
       </section>
-      <img
-        src="images/persobon1.png"
-        alt="Quentin"
-        className="stick"
-        ref={headerImgRef}
-      />
+      <div className="heroImageWrap">
+        <img
+          src="images/persobon1.png"
+          alt="Illustration de Quentin"
+          className="stick"
+          ref={headerImgRef}
+        />
+      </div>
     </header>
   );
 };

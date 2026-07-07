@@ -8,6 +8,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import GithubActivity from "./components/GithubActivity";
 import Experience from "./components/Experience";
+import OstiaShowcase from "./components/OstiaShowcase";
 import Projects from "./components/Projects";
 import Links from "./components/Links";
 
@@ -24,6 +25,7 @@ const App = () => {
       <Skills />
       <GithubActivity />
       <Experience />
+      <OstiaShowcase />
       <Projects />
       <Links />
     </div>

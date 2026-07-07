@@ -1,0 +1,240 @@
+.ostiaShowcaseh1 {
+  margin-top: 8rem;
+}
+
+.ostiaShowcase {
+  padding-bottom: 2rem;
+}
+
+.ostiaPanel {
+  --ostia-accent: rgba(255, 255, 255, 0.7);
+  --ostia-accent-shadow: rgba(255, 255, 255, 0.25);
+  max-width: 1360px;
+  margin: 2.25rem auto 0;
+  padding: 0 2rem;
+}
+
+.ostiaPanel.theme-ia {
+  --ostia-accent: #78aaff;
+  --ostia-accent-shadow: rgba(120, 170, 255, 0.4);
+}
+
+.ostiaPanel.theme-cicd {
+  --ostia-accent: #ffaa6e;
+  --ostia-accent-shadow: rgba(255, 170, 110, 0.4);
+}
+
+.ostiaPanel.theme-data {
+  --ostia-accent: #8cffbe;
+  --ostia-accent-shadow: rgba(140, 255, 190, 0.4);
+}
+
+.ostiaShowcaseContent {
+  display: flex;
+  gap: 1.5rem;
+  align-items: stretch;
+  text-align: left;
+}
+
+.ostiaScreen {
+  flex: 1 1 76%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--surface-border);
+  background: #0b0b0d;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+}
+
+.ostiaScreenBar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border-bottom: 1px solid var(--surface-border);
+}
+
+.ostiaScreenBar span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  opacity: 0.85;
+}
+
+.ostiaScreenBar span:nth-child(1) {
+  background: #ff5f57;
+}
+
+.ostiaScreenBar span:nth-child(2) {
+  background: #febc2e;
+}
+
+.ostiaScreenBar span:nth-child(3) {
+  background: #28c840;
+}
+
+.ostiaScreenVideo {
+  width: 100%;
+  line-height: 0;
+}
+
+.ostiaScreenVideo video {
+  display: block;
+  width: 100%;
+  height: auto;
+  animation: ostiaFadeIn 0.4s ease;
+}
+
+.ostiaText {
+  flex: 1 1 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 0.5rem;
+  animation: ostiaFadeIn 0.4s ease;
+}
+
+.ostiaBadge {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 12px;
+  margin-bottom: 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--surface-border);
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 10px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--ostia-accent);
+}
+
+.ostiaBadge::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--ostia-accent);
+  box-shadow: 0 0 10px var(--ostia-accent);
+}
+
+.ostiaText h2 {
+  margin-bottom: 1.1rem;
+}
+
+.ostiaSteps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ostiaSteps li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  text-align: left;
+  opacity: 0.85;
+}
+
+.ostiaStepText {
+  flex: 1 1 auto;
+  text-align: left;
+}
+
+.ostiaStepIndex {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19px;
+  height: 19px;
+  margin-top: 1px;
+  border-radius: 50%;
+  border: 1px solid var(--surface-border);
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--ostia-accent);
+}
+
+@keyframes ostiaFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ostiaCards {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--surface-border);
+}
+
+.ostiaCard {
+  min-width: 110px;
+  padding: 8px 18px;
+  font-size: 13px;
+  border-radius: 999px;
+  border: 1px solid var(--surface-border);
+  background-color: rgba(255, 255, 255, 0.03);
+  opacity: 0.6;
+  box-shadow: none;
+  transition: 0.3s ease;
+}
+
+.ostiaCard:hover {
+  opacity: 1;
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+.ostiaCard.active {
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: var(--ostia-accent);
+  color: white;
+  box-shadow: 0 0 22px var(--ostia-accent-shadow);
+}
+
+@media screen and (max-width: 900px) {
+  .ostiaShowcaseContent {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ostiaText {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ostiaPanel {
+    padding: 0 1.5rem;
+    margin: 2rem auto 0;
+  }
+
+  .ostiaCards {
+    gap: 0.75rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+  }
+
+  .ostiaCard {
+    min-width: 100px;
+  }
+}

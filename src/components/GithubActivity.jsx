@@ -48,7 +48,7 @@ const GithubActivity = () => {
 
   return (
     <section className="github" id="github" ref={sectionRef}>
-      <h1>ACTIVITÉ GITHUB</h1>
+      <h1>Activité GitHub</h1>
       <div className="githubGrid">
         <div className="githubCard githubCard--graph">
           <img

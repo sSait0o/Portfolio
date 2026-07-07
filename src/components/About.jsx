@@ -66,7 +66,7 @@ const About = () => {
 
   return (
     <section className="about" id="about" ref={aboutRef}>
-      <h1>A PROPOS</h1>
+      <h1>À Propos</h1>
       <div className="aboutContent">
         <div className="aboutContentIn One" ref={contentOneRef}>
           <img src="images/presentation.png" alt="Présentation" />

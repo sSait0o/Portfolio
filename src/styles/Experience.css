@@ -18,8 +18,9 @@
 .experienceItem {
   text-align: left;
   padding: 1.25rem 1.5rem;
-  border-radius: 16px;
-  border: #ffffff 2px solid;
+  border-radius: var(--radius-card);
+  border: 1px solid var(--surface-border);
+  background: var(--surface-bg);
   box-shadow: var(--glow-soft);
 }
 

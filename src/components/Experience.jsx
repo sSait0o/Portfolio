@@ -45,7 +45,7 @@ const Experience = () => {
 
   return (
     <section className="experience" id="experience" ref={sectionRef}>
-      <h1>EXPÉRIENCES</h1>
+      <h1>Expériences</h1>
       <div className="experienceList">
         {experience.map(({ id, role, company, period, points, link }) => (
           <div className="experienceItem" key={id}>

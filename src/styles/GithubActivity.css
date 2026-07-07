@@ -19,8 +19,8 @@
 }
 
 .githubCard {
-  border-radius: 20px;
-  border: #ffffff 2px solid;
+  border-radius: var(--radius-card);
+  border: 1px solid var(--surface-border);
   background-color: #0d1117;
   padding: 16px;
   box-shadow: var(--glow-soft);

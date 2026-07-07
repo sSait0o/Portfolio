@@ -27,7 +27,8 @@ nav {
   backdrop-filter: blur(10px); /* Blur effect */
 }
 
-.navContainer a:hover {
+.navContainer a:hover,
+.navContainer a.active {
   position: relative;
   top: 2px;
   border-bottom: 4px solid white;

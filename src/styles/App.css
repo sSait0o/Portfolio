@@ -2,6 +2,10 @@
 
 :root {
   --glow-soft: 0 0 1px rgba(255, 255, 255, 0.6), 0 0 18px rgba(255, 255, 255, 0.1);
+  --radius-panel: 28px;
+  --radius-card: 20px;
+  --surface-bg: rgba(255, 255, 255, 0.035);
+  --surface-border: rgba(255, 255, 255, 0.14);
 }
 
 * {
