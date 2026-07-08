@@ -7,7 +7,7 @@ nav {
   width: 100%;
   height: 8vh;
   justify-content: center;
-  z-index: 1;
+  z-index: 20;
   backdrop-filter: blur(2px); /* Blur effect */
 }
 
@@ -34,8 +34,98 @@ nav {
   border-bottom: 4px solid white;
 }
 
+.navToggle {
+  display: none;
+}
+
+.navBackdrop {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   nav {
-    display: none;
+    justify-content: flex-end;
+    height: 60px;
+    padding: 0 1.25rem;
+    background: rgba(6, 6, 6, 0.55);
+  }
+
+  .navToggle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    border: 1px solid var(--surface-border);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: none;
+    z-index: 22;
+  }
+
+  .navToggle:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+
+  .navToggle span {
+    width: 18px;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .navToggle.open span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .navToggle.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navToggle.open span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .navContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: min(78vw, 320px);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background: rgba(6, 6, 6, 0.92);
+    backdrop-filter: blur(16px);
+    border-left: 1px solid var(--surface-border);
+    transform: translateX(100%);
+    transition: transform 0.35s ease;
+    z-index: 21;
+  }
+
+  .navContainer.open {
+    transform: translateX(0);
+  }
+
+  .navContainer a {
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 1.05rem;
+  }
+
+  .navBackdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 20;
   }
 }

@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import useActiveSection from "../hooks/useActiveSection";
 import "../styles/Navbar.css";
 
@@ -15,11 +15,20 @@ const NAV_ITEMS = [
 const Navbar = () => {
   const navRef = useRef(null);
   const activeSection = useActiveSection();
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    document.body.style.overflow = isOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
 
   const handleClick = (e) => {
     e.preventDefault();
     const targetId = e.currentTarget.getAttribute("href").substring(1);
     const targetElement = document.getElementById(targetId);
+    setIsOpen(false);
     if (targetElement) {
       window.scrollTo({
         top: targetElement.offsetTop - navRef.current.offsetHeight,
@@ -30,7 +39,18 @@ const Navbar = () => {
 
   return (
     <nav ref={navRef}>
-      <div className="navContainer">
+      <button
+        type="button"
+        className={`navToggle${isOpen ? " open" : ""}`}
+        aria-label={isOpen ? "Fermer le menu" : "Ouvrir le menu"}
+        aria-expanded={isOpen}
+        onClick={() => setIsOpen((prev) => !prev)}
+      >
+        <span />
+        <span />
+        <span />
+      </button>
+      <div className={`navContainer${isOpen ? " open" : ""}`}>
         {NAV_ITEMS.map(({ label, href }) => (
           <a
             key={href}
@@ -42,6 +62,13 @@ const Navbar = () => {
           </a>
         ))}
       </div>
+      {isOpen && (
+        <div
+          className="navBackdrop"
+          onClick={() => setIsOpen(false)}
+          aria-hidden="true"
+        />
+      )}
     </nav>
   );
 };
