@@ -68,6 +68,24 @@ const OstiaShowcase = () => {
                 </li>
               ))}
             </ul>
+            <div className="ostiaLinks">
+              <a
+                href="https://www.ostia-app.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ostiaLink"
+              >
+                Voir l'app
+              </a>
+              <a
+                href="https://github.com/sSait0o/OstIA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ostiaLink ostiaLinkGithub"
+              >
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
         <div className="ostiaCards">

@@ -164,6 +164,41 @@
   color: var(--ostia-accent);
 }
 
+.ostiaLinks {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+}
+
+.ostiaLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid var(--ostia-accent);
+  color: var(--ostia-accent);
+  background: rgba(255, 255, 255, 0.03);
+  transition: 0.3s ease;
+}
+
+.ostiaLink:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 18px var(--ostia-accent-shadow);
+  transform: translateY(-2px);
+}
+
+.ostiaLinkGithub {
+  border-color: var(--surface-border);
+  color: inherit;
+}
+
+.ostiaLinkGithub:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
 @keyframes ostiaFadeIn {
   from {
     opacity: 0;
