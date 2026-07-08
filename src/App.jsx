@@ -1,6 +1,8 @@
+import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./styles/App.css";
+import { trackVisit } from "./utils/trackVisit";
 import Background from "./components/Background";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -16,6 +18,10 @@ import Links from "./components/Links";
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
+  useEffect(() => {
+    trackVisit();
+  }, []);
+
   return (
     <div>
       <Background />

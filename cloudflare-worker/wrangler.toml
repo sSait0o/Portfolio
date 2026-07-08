@@ -1,0 +1,6 @@
+name = "portfolio-visit-notify"
+main = "visit-notify.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://ssait0o.github.io"
