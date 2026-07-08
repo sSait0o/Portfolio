@@ -19,6 +19,12 @@
   text-align: center;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 img {
   max-width: 100%;
   width: 50px;
